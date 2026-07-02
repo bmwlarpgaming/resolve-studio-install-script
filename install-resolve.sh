@@ -63,6 +63,6 @@ echo -e "LICENSE blackmagic davinciresolvestudio 999999 permanent uncounted\n  h
 
 
 echo Applying AAC fix...
-curl -fsSL https://davinci-resolve-linux-aac-fix.netlify.app/install.sh | bash
+su "$LOCAL_USER" -c "curl -fsSL https://davinci-resolve-linux-aac-fix.netlify.app/install.sh | bash"
 
 rm -rf "$INSTALL_WORKDIR"
