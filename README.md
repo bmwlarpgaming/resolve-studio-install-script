@@ -5,7 +5,7 @@ Yeah Resolve Studio is annoying so i made a script to install it on **FEDORA** (
 ## One-line special
 
 ```
-curl -fsSL https://raw.githubusercontent.com/bmwlarpgaming/resolve-studio-install-script/refs/heads/main/install-resolve.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/bmwlarpgaming/resolve-studio-install-script/refs/heads/main/install-resolve.sh | LOCAL_USER=$USER sudo -E bash
 ```
 
 ## Manual install
